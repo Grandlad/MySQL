@@ -134,23 +134,24 @@ WHERE percentage_laid_off = 1
 ORDER BY total_laid_off DESC;
 ```
 
-📊 Key Insights
+## 📊 Key Insights
 * Layoffs are heavily concentrated in specific time periods
 * A small number of companies account for a large share of layoffs
 * Tech-related industries are among the most impacted
 * Some companies experienced full workforce layoffs (100%)
 * Rolling totals show continuous growth of layoffs over time
 
-  🧠 SQL Skills Used
+
+## 🧠 SQL Skills Used
 * GROUP BY aggregations
 * Window functions (OVER)
 * CTEs (Common Table Expressions)
 * Ranking functions (DENSE_RANK)
 * Date extraction (YEAR, SUBSTRING)
 
-  🚀 Tools Used
+## 🚀 Tools Used
 * MySQL
 
-📌 Conclusion
+## 📌 Conclusion
 
 * This project demonstrates exploratory data analysis using SQL to uncover trends in global layoffs and understand their impact across industries, companies, and time.
