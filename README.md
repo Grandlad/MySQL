@@ -1,43 +1,37 @@
-Data Cleaning Project (SQL)
-Overview
+# 🗄️ MySQL Projects Portfolio
 
-This project shows how to clean a dataset using SQL.
-The goal is to take raw data and make it more organized, consistent, and ready for analysis.
+## 🧠 Overview
+This repository contains a collection of **MySQL data analysis and data cleaning projects**.
 
-What was done
-1. Created a copy of the data
+The projects focus on real-world datasets and demonstrate skills in:
+- Data cleaning and preprocessing
+- Exploratory data analysis (EDA)
+- Window functions and CTEs
+- Aggregations and ranking
+- Business insights extraction
 
--A new table was created so the original data stays unchanged.
+Each project is organized in its own folder with SQL scripts and documentation.
 
-2. Removed duplicates
--Used ROW_NUMBER() to find duplicate rows
--Deleted extra duplicate records
+---
 
-3. Cleaned the data
--Removed extra spaces using TRIM()
--Standardized values (example different Crypto names → one format)
--Fixed country names (removed dots, etc.)
+## 📂 Projects Overview
 
-4. Fixed date format
--Converted text dates into proper date format using
--STR_TO_DATE(date, '%m%d%Y')
+Below is a summary of completed projects in this repository:
 
-5. Handled missing values
--Checked for NULL or empty values
--Cleaned or adjusted where possible
+| Project Name | Description | Skills Used | Status | GitHub Folder |
+|--------------|-------------|-------------|--------|---------------|
+| Layoffs Data Cleaning | Cleaned raw layoffs dataset by removing duplicates, handling nulls, and standardizing data | CTEs, ROW_NUMBER(), JOINs, Data Cleaning | ✅ Completed | `/data-cleaning-layoffs` |
+| Layoffs EDA Analysis | Analyzed layoffs trends by company, industry, country, and time | GROUP BY, Window Functions, Ranking, CTEs | ✅ Completed | `/layoffs-eda` |
 
-6. Final cleanup
--Removed helper columns
--Made sure data is consistent
+---
 
-Tools used
--SQL (MySQL)
+## 📊 Skills Demonstrated
 
-How to use
--Import the dataset
--Run the SQL script
--Use the cleaned table for analysis
+- Data Cleaning in SQL
+- Exploratory Data Analysis (EDA)
+- Window Functions (`OVER`, `ROW_NUMBER`, `DENSE_RANK`)
+- Common Table Expressions (CTEs)
+- Date manipulation and transformation
+- Business-focused data insights
 
-
-Purpose
-This project is for practicing data cleaning in SQL, which is an important step before doing any data analysis.
+---
